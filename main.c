@@ -67,7 +67,7 @@ void alterar_notas(aluno dados_alunos[3],char nome_materia[13][25]){
     scanf("%i",&materia_alterar);
 
     printf("\nQUAL A NOVA NOTA ?  ");
-    scanf("%f",&dados_alunos[pos].media[materia_alterar-1]);
+    scanf("%f",&dados_alunos[pos].media[materia_alterar]);
 
 }
 
@@ -96,7 +96,7 @@ void alterar_faltas(aluno dados_alunos[3],char nome_materia[13][25]){
     printf("%i", faltas_alterar);
 
     printf("\nQUAL A NOVA QUANTIA DE FALTAS ?  ");
-    scanf("%f",&dados_alunos[pos].faltas[faltas_alterar-1]);
+    scanf("%f",&dados_alunos[pos].faltas[faltas_alterar]);
 
 }
 
